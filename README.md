@@ -114,3 +114,8 @@ Synchronize the Object Storage and the notebook (pull the data): `ovhai notebook
 ### Step 12 - Check the new data availability in the notebook
 
 New data are available? You are ready to train again your YOLOv7 model!
+
+## References
+
+YOLOv7 repository: https://github.com/WongKinYiu/yolov7
+Slides of the presentation: *soon*
