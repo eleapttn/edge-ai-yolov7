@@ -1,5 +1,7 @@
 # Edge AI : allez viens, on embarque notre intelligence artificielle !
 
+![githubbanner](https://github.com/eleapttn/edge-ai-yolov7/blob/main/head-edge-ai.png)
+
 > English traduction: *Edge AI: come on, let's get our artificial intelligence on board!*
 
 ## Introduction
