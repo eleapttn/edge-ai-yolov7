@@ -1,19 +1,20 @@
 # Edge AI : allez viens, on embarque notre intelligence artificielle !
 
+> English traduction: *Edge AI: come on, let's get our artificial intelligence on board!*
+
 ## Introduction
 
-Avez-vous déjà entendu parler du terme "AI on edge" ? Il s'agit du déploiement d'applications d'IA sur des appareils situés dans le monde physique. Les avantages ? Moins de latence, plus de sécurité, d'efficacité et surtout de la proximité ! Aujourd'hui, il devient donc de plus en plus important de pouvoir déployer des modèles d'IA capables d'inférer en temps réel.
+Have you ever heard of the term "AI on edge"? This is the deployment of AI applications on devices located in the physical world. The benefits? Less latency, more security, more efficiency and above all proximity! Today, it is therefore becoming increasingly important to be able to deploy AI models capable of inferring in real time.
 
-La vision par ordinateur est particulièrement concernée de par sa progression rapide et son utilisation dans de nombreux domaines : automobile, médical, commerce, … Elle regroupe de nombreuses techniques comme la classification d'images, la segmentation d'images ou encore la détection d'objets.
+Computer vision is particularly concerned by its rapid progression and its use in many fields: automotive, medical, commerce, etc. It includes many techniques such as image classification, image segmentation and object detection.
 
-Cette dernière permet d'identifier et de localiser les différents objets sur une image ou sur une vidéo. Un célèbre algorithme de détection d'objets, connu pour son fonctionnement rapide, se nomme YOLOv7.
+The last one makes it possible to identify and locate different objects in an image or video. A famous object detection algorithm, known for its fast operation, is called YOLOv7.
 
-Dans ce talk, nous verrons comment déployer un modèle YOLOv7 pour la détection d'objets sur une carte Raspberry Pi 4.
+In this talk, we will see how to deploy a YOLOv7 model for object detection on a Raspberry Pi 4 board.
 
-Pour cela, nous nous intéresserons à l'entraînement et au test d'un modèle YOLOv7 au sein d'un Notebook Jupyter. Nous convertirons ensuite notre modèle pour pouvoir le déployer et faire de l'inférence sur Raspberry Pi. La finalité ? Un outil de détection d'objets en temps réel à portée de main.
+To do this, we will look at training and testing a YOLOv7 model within a Jupyter Notebook. We will then convert our model to be able to deploy it and do inference on Raspberry Pi. The end result? A real-time object detection tool at your fingertips.
 
-Alors, on embarque ?
-
+So, shall we get on board?
 
 ## Requirements
 
