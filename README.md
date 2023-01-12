@@ -33,9 +33,35 @@ Go to `/yolov7` directory: `cd /yolov7`
 
 Install YOLOv7 dependences via the pip command: `pip3 install -r requirements.txt`
 
-Test your model on existing images with the following commmand: `python3 detect.py --weights '/tmp/yolov7-tiny.pt` --conf 0.25 --img-size 640 --source inference/images/keyboard.jpg`
+### Test n°1
 
+Test your model on existing images with the following commmand: `python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source inference/images/keyboard.jpg`
 
-Try it for real-time detection:
+### Test n°2
 
-Finally, take a picture, save it and use the model in order to detect objects:
+Try it for real-time detection: `python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source 0`
+
+### Test n°3
+
+Finally, take a picture with **Cheese** for example, save it and use the model in order to detect objects. 
+
+Create the new directories for images and labels: 
+- `mkdir new-data`
+- `mkdir new-data/images`
+- `mkdir new-data/labels`
+- 
+Launch the following command: `python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source new-images/ --save-txt`
+
+Copy the new labels into the dedicated directory: `cp -a runs/detect/exp/labels/. new-data/labels/`
+
+Content of the `new-data` directory:
+
+```
+.
+├── images
+│   └── test1.jpg
+└── labels
+    └── test1.txt
+
+2 directories, 2 files
+```
