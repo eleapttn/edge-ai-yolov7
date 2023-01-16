@@ -70,7 +70,7 @@ Here, three tests are done:
 #### Test n°1 - Run inference on existing images
 
 Test your model on existing images with the following commmand: 
-`python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source inference/images/keyboard.jpg`
+`python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg`
 
 #### Test n°2 - Play with the real-time detection
 
