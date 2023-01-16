@@ -87,7 +87,7 @@ Create the new directories for new images and labels:
 Take pictures (with **Cheese** for example), save them and use the model in order to detect objects.
 
 Launch the following command: 
-`python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source new-images/ --save-txt`
+`python3 detect.py --weights yolov7-tiny.pt --conf 0.25 --img-size 640 --source images/ --save-txt`
 
 ### Step 10 - Extract the new images and labels
 
